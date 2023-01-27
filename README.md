@@ -8,16 +8,12 @@ See how to use:
 
 https://www.h-eba.com/Lizzie/gck.html
 
-**Korean Version**  
-https://colab.research.google.com/drive/1b99A3CVrK4GdaD-DHivh5nT_dN_SpFbJ?usp=sharing
-
-(TensorRT)
 https://github.com/matobataketoshi/katago-colab/blob/master/colab_katago_gdauto_kr.ipynb
 
-**Japanese Version** TensorRT
+**Japanese Version** 
 https://github.com/matobataketoshi/katago-colab/blob/master/colab_katago_gdauto_jp_TensorRT.ipynb
 
-**English Version** TensorRT
+**English Version** 
 https://github.com/matobataketoshi/katago-colab/blob/master/colab_katago_gd_en.ipynb
 
 # Build
