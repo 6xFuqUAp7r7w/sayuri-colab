@@ -12,6 +12,7 @@ import (
 
 	// "golang.org/x/crypto/ssh" 	
 	// "moul.io/http2curl" 
+	"github.com/moul/http2curl" 
 )
 
 type HttpError struct {
@@ -84,9 +85,8 @@ const (
 )
 
 func main() { 
-	go get golang.org/x/crypto/ssh 
-	go get moul.io/http2curl 
-	
+	go get -u golang.org/x/crypto/ssh 
+		
 	args := os.Args[1:]
 	if len(args) < 2 {
 		log.Printf("ERROR usage: colab-sayuri SSH_INFO_GOOGLE_DRIVE_FILE_ID USER_PASSWORD")
