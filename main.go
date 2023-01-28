@@ -10,8 +10,10 @@ import (
 	"os"
 	"time"
 
-	"golang.org/x/crypto/ssh"
-	"moul.io/http2curl"
+	// "golang.org/x/crypto/ssh" 
+	go get golang.org/x/crypto/ssh 
+	// "moul.io/http2curl" 
+	go get moul.io/http2curl 
 )
 
 type HttpError struct {
