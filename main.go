@@ -98,10 +98,10 @@ func main() {
 	}
 	fileId := args[0]
 	userpassword := args[1]
-	var newConfig *string = nil
-	if len(args) >= 3 {
-		newConfig = &args[2]
-	}
+	// var newConfig *string = nil
+	// if len(args) >= 3 {
+	// 	newConfig = &args[2]
+	// }
 	log.Printf("INFO using file ID: %s password: %s\n", fileId, userpassword)
 	sshJSONURL := "https://drive.google.com/uc?id=" + fileId
 	response, err := DoHTTPRequest("GET", sshJSONURL, nil, nil)
