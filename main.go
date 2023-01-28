@@ -145,7 +145,7 @@ func main() {
 	session.Stderr = os.Stderr
 	session.Stdin = os.Stdin
 
-	cmd := fmt.Sprintf("%s -w %s", KataGoBin, KataGoWeightFile)
+	cmd := fmt.Sprintf("%s --ponder	-w %s", KataGoBin, KataGoWeightFile)
 	log.Printf("DEBUG running commad:%s\n", cmd)
 	session.Run(cmd)
 }
