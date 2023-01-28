@@ -10,10 +10,8 @@ import (
 	"os"
 	"time"
 
-	// "golang.org/x/crypto/ssh" 
-	go get golang.org/x/crypto/ssh 
+	// "golang.org/x/crypto/ssh" 	
 	// "moul.io/http2curl" 
-	go get moul.io/http2curl 
 )
 
 type HttpError struct {
@@ -85,7 +83,10 @@ const (
 	KataGoWeightFile string = "/content/weight.bin.txt"	
 )
 
-func main() {
+func main() { 
+	go get golang.org/x/crypto/ssh 
+	go get moul.io/http2curl 
+	
 	args := os.Args[1:]
 	if len(args) < 2 {
 		log.Printf("ERROR usage: colab-sayuri SSH_INFO_GOOGLE_DRIVE_FILE_ID USER_PASSWORD")
