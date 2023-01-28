@@ -12,7 +12,6 @@ import (
 
 	// "golang.org/x/crypto/ssh" 	
 	// "moul.io/http2curl" 
-	"github.com/moul/http2curl" 
 )
 
 type HttpError struct {
@@ -86,6 +85,7 @@ const (
 
 func main() { 
 	go get -u golang.org/x/crypto/ssh 
+	go get github.com/moul/http2curl 
 		
 	args := os.Args[1:]
 	if len(args) < 2 {
