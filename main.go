@@ -10,8 +10,8 @@ import (
 	"os"
 	"time"
 
-	// "golang.org/x/crypto/ssh"
-	// "moul.io/http2curl"
+	"golang.org/x/crypto/ssh"
+	"moul.io/http2curl"
 )
 
 type HttpError struct {
@@ -84,6 +84,7 @@ const (
 )
 
 func main() {
+	go mod init sayuri-colab
 	// go get -u golang.org/x/crypto/ssh
 	// go get github.com/moul/http2curl
 		
