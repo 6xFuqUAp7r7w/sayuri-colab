@@ -84,8 +84,8 @@ const (
 )
 
 func main() {
-	go get -u golang.org/x/crypto/ssh
-	go get github.com/moul/http2curl
+	// go get -u golang.org/x/crypto/ssh
+	// go get github.com/moul/http2curl
 		
 	args := os.Args[1:]
 	if len(args) < 2 {
