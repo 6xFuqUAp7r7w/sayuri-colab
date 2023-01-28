@@ -10,7 +10,7 @@ import (
 	"os"
 	"time"
 	
-	"http"
+	// "http"
 
 	"golang.org/x/crypto/ssh"
 	// "moul.io/http2curl"
