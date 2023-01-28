@@ -10,8 +10,8 @@ import (
 	"os"
 	"time"
 
-	// "golang.org/x/crypto/ssh" 	
-	// "moul.io/http2curl" 
+	// "golang.org/x/crypto/ssh"
+	// "moul.io/http2curl"
 )
 
 type HttpError struct {
@@ -80,12 +80,12 @@ const (
 	// KataGoBin the bin file path
 	KataGoBin string = "/content/sayuri"
 	// KataGoWeightFile the default weight file
-	KataGoWeightFile string = "/content/weight.bin.txt"	
+	KataGoWeightFile string = "/content/weight.bin.txt"
 )
 
-func main() { 
-	go get -u golang.org/x/crypto/ssh 
-	go get github.com/moul/http2curl 
+func main() {
+	go get -u golang.org/x/crypto/ssh
+	go get github.com/moul/http2curl
 		
 	args := os.Args[1:]
 	if len(args) < 2 {
