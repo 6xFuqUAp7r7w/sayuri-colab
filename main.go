@@ -80,7 +80,7 @@ const (
 	// KataGoBin the bin file path
 	KataGoBin string = "/content/sayuri"
 	// KataGoWeightFile the default weight file
-	KataGoWeightFile string = "/content/weight.bin.gz"	
+	KataGoWeightFile string = "/content/weight.bin.txt"	
 )
 
 func main() {
